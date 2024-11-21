@@ -1,6 +1,6 @@
 public class Calculator {
 
-    public double calculate(float first, float second, char operator) {
+    public double calculate() {
         return 0;
     }
 }
