@@ -32,6 +32,9 @@ public class StepDefs {
     @When("the two numbers are added")
     public void twoNumbersAreAdded(){ result = calculator.calculate(a, b,'+'); }
 
+    @When("the two numbers are subtracted")
+    public void twoNumbersAreSubtracted(){ result = calculator.calculate(a, b, '-'); }
+
     @Then("the result is {string}")
     public void theResultIs(String arg0) {
         assertEquals(Double.parseDouble(arg0), result, 0.0001);
