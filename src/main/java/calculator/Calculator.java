@@ -6,6 +6,11 @@ public class Calculator {
         if (operator == '*') {
             return firstNumber * secondNumber;
         }
+
+        if (operator == '+'){
+            return firstNumber + secondNumber;
+        }
+
         return 0;
     }
 }
