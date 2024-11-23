@@ -15,6 +15,10 @@ public class Calculator {
             return firstNumber - secondNumber;
         }
 
+        if(operator == '/'){
+            return firstNumber / secondNumber;
+        }
+
         return 0;
     }
 }
